@@ -144,8 +144,7 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 When you are finished create a PR with the following title: `Ex. 6: Random Number`.
 
 # Ex. 7 Car Counter
-Create a React component called `CarCounter`.  
-
+Create a React component called `CarCounter`.  This component keeps track of the number of times the Ford, Toyota and Chevy button have been pressed.  It also keeps track of the total count.
 
 ![](./docs/ex7a.png)
 
@@ -166,6 +165,7 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 When you are finished create a PR with the following title: `Ex. 7: Car Counter`.
 
 # Ex. 8
+
 
 
 # Ex. 9
