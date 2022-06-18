@@ -178,7 +178,11 @@ export const Main = () => {
 }
 ```
 
+Initial page load:
+
 ![](./docs/ex8a.png)
+
+Buttons "Add 1" and "Add 2" and "Add 3" have been pushed:
 
 ![](./docs/ex8b.png)
 
