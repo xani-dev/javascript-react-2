@@ -82,6 +82,16 @@ The Max counter stores the highest positive number produced when the up button h
 
 ![](./docs/ex4c.png)
 
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <MinMaxCounter />
+  )
+}
+```
+
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
 When you are finished create a PR with the following title: `Ex. 4: Min Max Counter`.
@@ -96,6 +106,17 @@ Initial load:
 Add Number button pressed 7 times:
 
 ![](./docs/ex5b.png)
+
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <NumberBuilder />
+  )
+}
+```
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
