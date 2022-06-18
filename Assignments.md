@@ -208,7 +208,7 @@ Initial page load and reset:
 
 ![](./docs/ex9a.png)
 
-Buttons "Add 1" and "Add 2" and "Add 3" have been pushed:
+Both buttons have been pushed:
 
 ![](./docs/ex9b.png)
 
