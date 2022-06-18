@@ -217,7 +217,7 @@ When you are finished create a PR with the following title: `Ex. 9: Buttons`.
 
 # Ex. 10 Timer
 
-Create a React component called `Timer`.  This component reports the number of seconds elapsed between button pushes.
+Create a React component called `Timer`.  This component reports the number of seconds that have elapsed between button pushes.
 
 Initial page load and reset:
 
