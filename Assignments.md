@@ -74,7 +74,7 @@ Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from 
 
 ![](./docs/ex4a.png)
 
-When component has been loaded into the DOM for the first time all values are 0:
+When component has been loaded into the DOM for the first time all values are reset to 0.
 
 The Max counter stores the highest positive number produced when the up button has been pressed.  The Min counter stores the smallest number produced when the down button has been pressed.
 
