@@ -50,7 +50,9 @@ When you are finished create a PR with the following title: `Ex. 3: Up Down Coun
 Create a React component called `UpDownCounter` that displays the number of times the up/down button has been pushed:
 
 ![](./docs/ex3a.png)
+
 ![](./docs/ex3b.png)
+
 ![](./docs/ex3c.png)
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
