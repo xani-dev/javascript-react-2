@@ -3,8 +3,8 @@
 All of the examples here are built with the following approach:
 - Single React component
 - State
-- No props
 - No style
+- No props
 - No useRef
 - No useEffect
 
