@@ -47,7 +47,7 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 When you are finished create a PR with the following title: `Ex. 3: Up Down Counter`.
 
 # Ex. 3 Up Down Counter
-Create a React component called `UpDownCounter` that displays the number of times the up/down button has been pushed:
+Create a React component called `UpDownCounter` that increments or decrements the value of the counter.  This component should have one state variable and one button handler function.
 
 ![](./docs/ex3a.png)
 
