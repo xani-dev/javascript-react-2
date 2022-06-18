@@ -27,12 +27,22 @@ When you are finished create a PR with the following title: `Ex. 1: Date Fetcher
 
 
 # Ex. 2 Ten Counter
-Create a React component called `Ten Counter` that displays the number of times a button has been pushed.  When the counter gets to 10, it resets to 0.
+Create a React component called `TenCounter` that displays the number of times a button has been pushed.  When the counter gets to 10, it resets to 0.
 
 ![](./docs/ex2a.png)
 
 
 ![](./docs/ex2b.png)
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <TenFetcher />
+  )
+}
+```
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
