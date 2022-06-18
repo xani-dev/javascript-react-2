@@ -193,6 +193,13 @@ When you are finished create a PR with the following title: `Ex. 8: Add Calculat
 # Ex. 9 Buttons
 Create a React component called `Buttons`.  This component changes the text of the buttons from Push to Pushed when a button has been pushed.  The Reset button resets the text of both buttons to "Push".
 
+Initial page load and reset:
+
+![](./docs/ex9a.png)
+
+Both buttons have been pushed:
+
+![](./docs/ex9b.png)
 
 Place this component in your Main component in your Student directory:
 
@@ -204,16 +211,32 @@ export const Main = () => {
 }
 ```
 
-Initial page load and reset:
-
-![](./docs/ex9a.png)
-
-Both buttons have been pushed:
-
-![](./docs/ex9b.png)
-
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
 When you are finished create a PR with the following title: `Ex. 9: Buttons`.
 
-# Ex. 10 
+# Ex. 10 Timer
+
+Create a React component called `Timer`.  This component reports the number of seconds elapsed between button pushes.
+
+Initial page load and reset:
+
+![](./docs/ex10a.png)
+
+Both buttons have been pushed:
+
+![](./docs/ex10a.png)
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <Timer />
+  )
+}
+```
+
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 10: Timer`.

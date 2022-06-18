@@ -1,10 +1,12 @@
 import React from 'react'
 import './Main.scss'
 
+import { Timer } from './Timer';
+
 export const Main = () => {
   return (
     <div className="Main">
-       TODO...
+      <Timer />
     </div>
   )
 }
