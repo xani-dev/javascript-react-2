@@ -164,9 +164,27 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 
 When you are finished create a PR with the following title: `Ex. 7: Car Counter`.
 
-# Ex. 8
+# Ex. 8 Add Calculator
+Create a React component called `AddCalculator`.  This component creates a total based on the buttons that have been pushed.
 
 
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <AddCalculator />
+  )
+}
+```
+
+![](./docs/ex8a.png)
+
+![](./docs/ex8b.png)
+
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 8: Add Calculator`.
 
 # Ex. 9
 
