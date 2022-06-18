@@ -10,6 +10,17 @@ When the button is pushed, the current date in UTC format is displayed.  Example
 
 ![](./docs/ex1b.png)
 
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <DateFetcher />
+  )
+}
+```
+
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
 When you are finished create a PR with the following title: `Ex. 1: Date Fetcher`.
