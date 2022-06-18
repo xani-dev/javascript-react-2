@@ -70,7 +70,7 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 When you are finished create a PR with the following title: `Ex. 3: Up Down Counter`.
 
 # Ex. 4 Min Max Counter
-Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and Min/Max values:
+Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and add Min/Max values:
 
 When component has been loaded into the DOM for the first time all values are 0:
 
