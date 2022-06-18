@@ -1,10 +1,11 @@
-import React from 'react'
-import './Main.scss'
+import React from "react";
+import { Buttons } from "./Buttons";
+import "./Main.scss";
 
 export const Main = () => {
   return (
     <div className="Main">
-       TODO...
+      <Buttons />
     </div>
-  )
-}
+  );
+};

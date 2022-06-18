@@ -190,7 +190,33 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 
 When you are finished create a PR with the following title: `Ex. 8: Add Calculator`.
 
-# Ex. 9
+# Ex. 9 Buttons
+Create a React component called `Buttons`.  This component changes the text of the buttons from Push to Pushed when a button has been pushed.
+
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <Buttons />
+  )
+}
+```
+
+Initial page load:
+
+![](./docs/ex9a.png)
+
+Buttons "Add 1" and "Add 2" and "Add 3" have been pushed:
+
+![](./docs/ex9a.png)
+
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 9: Buttons`.
+
+
 
 
 # Ex. 10
