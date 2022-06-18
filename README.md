@@ -13,6 +13,6 @@ Assignments are located [here](./Assignments.md).
 - Observe your browser: `localhost:3000`
 
 # Starter Tips
-- [React](https://reactjs.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - ALWAYS keep the console open (Ctl+Shift+i)
 - ALWAYS check the Network tab when calling Web APIs
