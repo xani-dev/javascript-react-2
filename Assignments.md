@@ -223,9 +223,10 @@ Initial page load and reset:
 
 ![](./docs/ex10a.png)
 
-Both buttons have been pushed:
 
 ![](./docs/ex10b.png)
+
+![](./docs/ex10c.png)
 
 Place this component in your Main component in your Student directory:
 
