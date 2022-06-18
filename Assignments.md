@@ -93,7 +93,7 @@ Initial load:
 
 ![](./docs/ex5a.png)
 
-Add Number button has been pressed 7 times:
+Add Number button pressed 7 times:
 
 ![](./docs/ex5b.png)
 
