@@ -210,13 +210,10 @@ Initial page load and reset:
 
 Buttons "Add 1" and "Add 2" and "Add 3" have been pushed:
 
-![](./docs/ex9a.png)
+![](./docs/ex9b.png)
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
 When you are finished create a PR with the following title: `Ex. 9: Buttons`.
 
-
-
-
-# Ex. 10
+# Ex. 10 
