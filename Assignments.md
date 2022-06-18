@@ -97,6 +97,10 @@ Add Number button pressed 7 times:
 
 ![](./docs/ex5b.png)
 
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 5: Number Builder`.
+
 # Ex. 6
 
 
