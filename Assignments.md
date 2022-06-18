@@ -5,8 +5,8 @@ All of the examples here are built with the following approach:
 - State
 - No props
 - No style
-- No useEffect
 - No useRef
+- No useEffect
 
 # Ex. 1: Date Fetcher
 Create a React component called `DateFetcher`.  The `DateFetcher` has a state variable that is used to store the UTC date.  When the `DateFetcher` is initially loaded into the browser it displays the following:
