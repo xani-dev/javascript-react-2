@@ -223,8 +223,11 @@ Initial page load and reset:
 
 ![](./docs/ex10a.png)
 
+Button pushed:
 
 ![](./docs/ex10b.png)
+
+Button pushed again after 2 seconds.
 
 ![](./docs/ex10c.png)
 

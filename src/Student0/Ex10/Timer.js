@@ -3,19 +3,20 @@ import React from "react";
 import { useState } from "react";
 
 export const Timer = () => {
-  let [time1, setTime1] = useState(null);
   let [result, setResult] = useState();
   let [text, setText] = useState("Stopped");
+  let [startTime, setStartTime] = useState(null);
 
   const onHandleClick = () => {
-    if (time1 == null) {
+    if (startTime == null) {
       setResult("");
-      setTime1(new Date());
+      setStartTime(new Date());
       setText("Started...");
     } else {
-      let delta = (new Date().getTime() - time1.getTime()) / 1000;
+      let endTime = new Date();
+      let delta = (endTime.getTime() - startTime.getTime()) / 1000;
       setResult(delta + " seconds");
-      setTime1(null);
+      setStartTime(null);
       setText("Stopped");
     }
   };
