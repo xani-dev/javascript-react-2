@@ -72,9 +72,9 @@ When you are finished create a PR with the following title: `Ex. 3: Up Down Coun
 # Ex. 4 Min Max Counter
 Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and add Min/Max values:
 
-When component has been loaded into the DOM for the first time all values are 0:
-
 ![](./docs/ex4a.png)
+
+When component has been loaded into the DOM for the first time all values are 0:
 
 The Max counter stores the highest positive number produced when the up button has been pressed.  The Min counter counter stores the smallest number produced when the down button has been pressed.
 
