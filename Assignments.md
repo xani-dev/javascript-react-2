@@ -12,7 +12,7 @@ Then the button is pushed, the current date in UTC format is displayed.  Example
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: Ex. 1: Date Fetcher.
+When you are finished create a PR with the following title: `Ex. 1: Date Fetcher`.
 
 
 # Ex. 2
