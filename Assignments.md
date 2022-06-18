@@ -93,7 +93,7 @@ The Reset button clears the Numbers.
 
 ![](./docs/ex5a.png)
 
-![](./docs/ex5a.png)
+![](./docs/ex5b.png)
 
 # Ex. 6
 
