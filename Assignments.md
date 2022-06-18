@@ -1,4 +1,4 @@
-# JavaScript React Intro Assignments
+# JavaScript React Intro Assignments 2
 
 # Ex. 1: Date Fetcher
 
@@ -6,7 +6,7 @@ Create a React component called `DateFetcher`.  The `DateFetcher` has a state va
 
 ![](./docs/ex1a.png)
 
-Then the Push button is pushed, the following is displayed:
+Then the button is pushed, the current date in UTC format is displayed.  Example:
 
 ![](./docs/ex1b.png)
 
