@@ -143,9 +143,27 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 
 When you are finished create a PR with the following title: `Ex. 6: Random Number`.
 
-# Ex. 7
+# Ex. 7 Car Counter
+Create a React component called `CarCounter`.  
 
 
+![](./docs/ex7a.png)
+
+![](./docs/ex7b.png)
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <CarCounter />
+  )
+}
+```
+
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 7: Car Counter`.
 
 # Ex. 8
 

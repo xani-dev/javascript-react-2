@@ -1,10 +1,9 @@
-import React from 'react'
-import './Main.scss'
+import React from "react";
+import { CarCounter } from "./CarCounter";
+import "./Main.scss";
 
 export const Main = () => {
   return (
-    <div className="Main">
-       TODO...
-    </div>
-  )
-}
+    <CarCounter />
+  );
+};
