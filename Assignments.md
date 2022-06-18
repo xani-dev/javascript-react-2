@@ -65,16 +65,18 @@ export const Main = () => {
 }
 ```
 
-
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
 When you are finished create a PR with the following title: `Ex. 3: Up Down Counter`.
 
 # Ex. 4 Min Max Counter
-Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and min/max values:
+Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and Min/Max values:
 
+When component has been loaded into the DOM for the first time all values are 0:
 
 ![](./docs/ex4a.png)
+
+The Max counter stores the highest positive number produced when the up button has been pressed.  The Min counter counter stores the smallest number produced when the down button has been pressed.
 
 ![](./docs/ex4b.png)
 
