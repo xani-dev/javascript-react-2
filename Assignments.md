@@ -86,8 +86,14 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 
 When you are finished create a PR with the following title: `Ex. 4: Min Max Counter`.
 
-# Ex. 5
+# Ex. 5 Number Builder
+Create a React component called `NumberBuilder`.  The `NumberBuilder` builds a string of numbers that represent how many times the Add Numbers button has been pressed.
 
+The Reset button clears the Numbers.
+
+![](./docs/ex5a.png)
+
+![](./docs/ex5a.png)
 
 # Ex. 6
 
