@@ -1,6 +1,10 @@
 # JavaScript React Intro Assignments 2
 
-All of the examples here use a single React component with state and no props.
+All of the examples here are built with the following approach:
+- Single React component
+- State
+- No props
+- No style
 
 # Ex. 1: Date Fetcher
 Create a React component called `DateFetcher`.  The `DateFetcher` has a state variable that is used to store the UTC date.  When the `DateFetcher` is initially loaded into the browser it displays the following:
