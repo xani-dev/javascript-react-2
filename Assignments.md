@@ -39,7 +39,7 @@ Place this component in your Main component in your Student directory:
 ```
 export const Main = () => {
   return (
-    <TenFetcher />
+    <TenCounter />
   )
 }
 ```
