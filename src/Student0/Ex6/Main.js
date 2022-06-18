@@ -1,12 +1,11 @@
 import React from 'react'
 import './Main.scss'
-
-import { useState } from 'react'
+import { RandomNumber } from './RandomNumber'
 
 export const Main = () => {
   return (
     <div className="Main">
-      <button onClick={() => console.log('test')}>Here</button>
+      <RandomNumber />
     </div>
   )
 }

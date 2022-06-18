@@ -123,8 +123,25 @@ Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or war
 When you are finished create a PR with the following title: `Ex. 5: Number Builder`.
 
 # Ex. 6
+Create a React component called `RandomNumber`.  When the Generate button is pressed a random number bewteen 0-10 is displayed.
 
+![](./docs/ex6a.png)
 
+![](./docs/ex6b.png)
+
+Place this component in your Main component in your Student directory:
+
+```
+export const Main = () => {
+  return (
+    <RandomNumber />
+  )
+}
+```
+
+Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
+
+When you are finished create a PR with the following title: `Ex. 6: Random Number`.
 
 # Ex. 7
 
