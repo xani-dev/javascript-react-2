@@ -13,3 +13,30 @@ Then the Push button is pushed, the following is displayed:
 Always keep the DevTools console open (ctl+shift+i).
 
 When you are finished create a PR with the following title: Ex. 1: Date Fetcher
+
+
+# Ex. 2
+
+
+# Ex. 3
+
+
+# Ex. 4
+
+
+# Ex. 5
+
+
+# Ex. 6
+
+
+# Ex. 7
+
+
+# Ex. 8
+
+
+# Ex. 9
+
+
+# Ex. 10
