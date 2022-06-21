@@ -1,17 +1,17 @@
-import React from "react";
+import React from "react"
 
-import { useState } from "react";
+import { useState } from "react"
 
 export const UpDownCounter = () => {
-  let [counter, setCounter] = useState(0);
+  let [counter, setCounter] = useState(0)
 
   const onHandleClick = (direction) => {
     if (direction === "up") {
-      setCounter(++counter);
+      setCounter(++counter)
     } else {
-      setCounter(--counter);
+      setCounter(--counter)
     }
-  };
+  }
 
   return (
     <div className="Main">
@@ -19,5 +19,5 @@ export const UpDownCounter = () => {
       {counter}
       <button onClick={() => onHandleClick("up")}>Up</button>
     </div>
-  );
-};
+  )
+}
