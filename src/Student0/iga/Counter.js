@@ -7,7 +7,7 @@ export const Counter = () => {
     let [counter, setCounter] = useState(0)
 
     const onHandleClick = (value) => {
-      setCounter(counter = counter + value)
+      setCounter(counter += value)
     }
   
     const onHandleReset = () => {
