@@ -10,6 +10,13 @@ const express = require('express');
 
 const PORT = 5150;
 const app = express();
+const personArray = [];
+
+personArray.push( {
+    id: 1,
+    name: "John Doe",
+    age: 22
+})
 
 var corsOptions = {
     origin: 'http://localhost:3000',
@@ -21,19 +28,21 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
 
-app.get('/person', cors(corsOptions), (req, res) => {
-    console.log('GET: ' + req.url);
-    let p = {person: "joe"};
-    res.send(p);
+//
+// GET /person/:id
+//
+
+app.get('/person/:id', cors(corsOptions), (req, res) => { 
+    let p = personArray.filter(p => p.id === parseInt(req.params['id']))
+    res.send(p[0]);
 });
 
-app.put('/person', cors(corsOptions), (req, res) => {
-    console.log('PUT: ' + req.url);
-    res.send(req.body);
-});
+//
+// POST /person
+//
 
 app.post('/person', cors(corsOptions), (req, res) => {
-    console.log('POST: ' + req.url);
+    personArray.push(req.body)
     res.send(req.body);
 });
 
