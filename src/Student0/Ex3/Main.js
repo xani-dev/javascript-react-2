@@ -6,7 +6,7 @@ import './Main.scss'
 export const Main = () => {
   return (
     <div className="Main">
-      <UpDownCounter value={4}/>
+      <UpDownCounter value={4} />
     </div>
   )
 }
