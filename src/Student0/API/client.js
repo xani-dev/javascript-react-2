@@ -11,8 +11,8 @@ const addPerson = async (person) => {
 }
 
 const main = async () => {
-    // let userId = 1
-    // getPerson(userId)
+    let userId = 1
+    getPerson(userId)
 
     let p = {
         id: 3,
