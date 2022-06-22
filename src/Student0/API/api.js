@@ -34,6 +34,7 @@ app.use(cors());
 
 app.get('/person/:id', cors(corsOptions), (req, res) => { 
     let p = personArray.filter(p => p.id === parseInt(req.params['id']))
+    console.log(personArray)
     res.send(p[0]);
 });
 
@@ -43,6 +44,7 @@ app.get('/person/:id', cors(corsOptions), (req, res) => {
 
 app.post('/person', cors(corsOptions), (req, res) => {
     personArray.push(req.body)
+    console.log(personArray)
     res.send(req.body);
 });
 
@@ -53,6 +55,7 @@ app.post('/person', cors(corsOptions), (req, res) => {
 app.delete('/person/:id', cors(corsOptions), (req, res) => {
     let index = personArray.findIndex(p => p.id === parseInt(req.params['id']))
     delete personArray[index]
+    console.log(personArray)
     res.send("Ok");
 });
 

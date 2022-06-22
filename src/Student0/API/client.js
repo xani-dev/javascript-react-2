@@ -1,25 +1,38 @@
 const axios = require('axios').default;
 
 const getPerson = async (userId) => {
-    let r = await axios.get(`http://localhost:5150/person/${userId}`);
-    console.log(r.data);
+    let result = await axios.get(`http://localhost:5150/person/${userId}`);
+    return result.data;
 }
 
 const addPerson = async (person) => {
-    let r = await axios.post(`http://localhost:5150/person/`, person);
-    console.log(r.data);
+    let result = await axios.post(`http://localhost:5150/person/`, person);
+    return result.data;
+}
+
+const deletePerson = async (userId) => {
+    let result = await axios.delete(`http://localhost:5150/person/${userId}`);
+    return result.data;
 }
 
 const main = async () => {
-    let userId = 1
-    getPerson(userId)
+    // GET...
+    let userId = 2
+    let person = await getPerson(userId)
+    console.log(person)
 
-    let p = {
-        id: 3,
-        name: "Alice in Chains",
+    // POST...
+    let newPerson = {
+        id: 2,
+        name: "Bob Jones",
         age: 44
     }
-    addPerson(p)
+    let res = await addPerson(newPerson)
+    console.log(res)
+
+    // DELETE...
+    let result = await deletePerson(1);
+    console.log(result)
 }
 
 main();
