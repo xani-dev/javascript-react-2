@@ -46,6 +46,16 @@ app.post('/person', cors(corsOptions), (req, res) => {
     res.send(req.body);
 });
 
+//
+// DELETE /person/:id
+//
+
+app.delete('/person/:id', cors(corsOptions), (req, res) => {
+    let index = personArray.findIndex(p => p.id === parseInt(req.params['id']))
+    delete personArray[index]
+    res.send("Ok");
+});
+
 app.listen(PORT, () => {
     console.log(`Express Server is running on port: ${PORT}`);
 });
