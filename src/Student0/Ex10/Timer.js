@@ -25,7 +25,7 @@ export const Timer = () => {
     <div className="Main">
       <button onClick={() => onHandleClick()}>{buttonText}</button>
       <br />
-      Elasped Time: {result}
+      Elapsed Time: {result}
     </div>
   );
 };
