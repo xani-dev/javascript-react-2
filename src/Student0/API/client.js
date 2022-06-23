@@ -17,15 +17,15 @@ const deletePerson = async (userId) => {
 
 const main = async () => {
     // GET...
-    let userId = 2
+    let userId = 1
     let person = await getPerson(userId)
     console.log(person)
 
     // POST...
     let newPerson = {
-        id: 2,
-        name: "Bob Jones",
-        age: 44
+        id: 3,
+        name: "Charlie",
+        age: 33
     }
     let res = await addPerson(newPerson)
     console.log(res)
