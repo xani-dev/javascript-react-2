@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 
 export const Timer = () => {
-  let [result, setResult] = useState();
+  let [result, setResult] = useState("");
   let [text, setText] = useState("Stopped");
   let [startTime, setStartTime] = useState(null);
 
