@@ -4,8 +4,8 @@ import { useState } from "react";
 
 export const Timer = () => {
   let [result, setResult] = useState("");
-  let [buttonText, setButtonText] = useState("Stopped");
   let [startTime, setStartTime] = useState(null);
+  let [buttonText, setButtonText] = useState("Stopped");
 
   const onHandleClick = () => {
     if (startTime == null) {
