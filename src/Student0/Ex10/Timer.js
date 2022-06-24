@@ -13,8 +13,8 @@ export const Timer = () => {
       setStartTime(new Date());
       setButtonText("Started...");
     } else {
-      let endTime = new Date();
-      let delta = (endTime.getTime() - startTime.getTime()) / 1000;
+      const endTime = new Date();
+      const delta = (endTime.getTime() - startTime.getTime()) / 1000;
       setResult(delta + " seconds");
       setStartTime(null);
       setButtonText("Stopped");
