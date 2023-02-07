@@ -3,14 +3,15 @@
 Assignments are located [here](./Assignments.md).
 
 # Getting Started
-- Clone this repo using SSH link
+- Clone this repo
 - Install dependencies: `npm install`
-- Create a file in the `src` directory called: `index.js`
-- Copy the contents of `src/index.js.template` to `index.js`
-- Update line 4 in `index.js` to reflect your student id number
+- Copy `src/index.js.template` file and make new file: `src/index.js`
+  - Update line 4 in `index.js` to reflect your student id number
+  - Update the excerise number in `index.js` for the exercise that you are working on
 - Start the live server: 
   - `npm start`
-- Observe your browser: `localhost:3000`
+- Observe your browser: `http://localhost:3000`
+
 
 # Starter Tips
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
