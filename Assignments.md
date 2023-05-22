@@ -32,7 +32,7 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 1: Date Fetcher`.
+When you are finished, switch driver/navigator roles.
 
 # Ex. 2 Ten Counter
 Create a React component called `TenCounter` that displays the number of times a button has been pushed.  When the counter reaches the value of 10, it resets to 0.
@@ -56,7 +56,9 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 3: Up Down Counter`.
+When you are finished:
+1. share and recieve your partner's code (for Ex. 1 & 2)
+2. create a PR (XPX-MMC fork) with the following title: `Ex. 1 & 2: Date Fetcher & Ten Counter`.
 
 # Ex. 3 Up Down Counter
 Create a React component called `UpDownCounter` that increments or decrements the value of the counter.  This component should have one state variable and one button handler function.
@@ -81,7 +83,7 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 3: Up Down Counter`.
+When you are finished, switch driver/navigator roles.
 
 # Ex. 4 Min Max Counter
 Create a React component called `MinMaxCounter`.  Copy the `UpDownCounter` from the previous example and add Min/Max values:
@@ -110,7 +112,9 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 4: Min Max Counter`.
+When you are finished:
+1. share and recieve your partner's code (for Ex. 3 & 4).
+2. create a PR (XPX-MMC fork) with the following title: `Ex. 3 & 4: Up Down and Min Max Counters`.
 
 # Ex. 5 Number Builder
 Create a React component called `NumberBuilder`.  The `NumberBuilder` builds a string of numbers that represent how many times the Add Numbers button has been pressed. The Reset button clears the Numbers.
@@ -138,7 +142,7 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 5: Number Builder`.
+When you are finished, switch driver/navigator roles.
 
 # Ex. 6 Random Number
 Create a React component called `RandomNumber`.  When the Generate button is pressed a random number bewteen 0-10 is displayed.
@@ -161,7 +165,9 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 6: Random Number`.
+When you are finished:
+1. share and recieve your partner's code (for Ex. 5 & 6)
+2. create a PR (XPX-MMC fork) with the following title: `Ex. 5 & 6: Number Builder & Random Number `.
 
 # Ex. 7 Car Counter
 Create a React component called `CarCounter`.  This component keeps track of the number of times the Ford, Toyota and Chevy button have been pressed.  It also keeps track of the total count.
@@ -184,7 +190,7 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 7: Car Counter`.
+When you are finished, switch driver/navigator roles.
 
 # Ex. 8 Add Calculator
 Create a React component called `AddCalculator`.  This component creates a total based on the buttons that have been pushed.
@@ -212,7 +218,9 @@ Buttons "Add 1" and "Add 2" and "Add 3" have been pushed:
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 8: Add Calculator`.
+When you are finished
+1. share and recieve your partner's code (for Ex. 7 & 8) 
+2. create a PR (XPX-MMC fork) with the following title: `Ex. 7 & 8: Car counter & Add calculator '.
 
 # Ex. 9 Buttons
 Create a React component called `Buttons`.  This component changes the text of the buttons from Push to Pushed when a button has been pushed.  The Reset button resets the text of both buttons to "Push".
@@ -239,7 +247,7 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 9: Buttons`.
+When you are finished, switch driver/navigator roles.
 
 # Ex. 10 Timer
 
@@ -271,4 +279,6 @@ export const Main = () => {
 
 Always keep the DevTools console open (Ctl+Shift+I) and remove any errors or warnings.
 
-When you are finished create a PR with the following title: `Ex. 10: Timer`.
+When you are finished
+1. share and recieve your partner's code (for Ex. 9 & 10) 
+2. create a PR (XPX-MMC fork) with the following title: `Ex. 9 & 10: Buttons & Timer `.
