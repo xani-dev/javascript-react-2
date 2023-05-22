@@ -5,6 +5,7 @@ Assignments are located [here](./Assignments.md).
 # Getting Started
 - Fork & clone this repo
 - Install dependencies: `npm install`
+- In 'src' folder, rename "StudentX" to your student number.
 - Rename `src/index.js.template` file and make new file: `src/index.js`
   - Update line 4 in `index.js` to reflect your student id number
   - Update the excerise number in `index.js` for the exercise that you are working on. You have to do this each time you move on to a new exercise.
